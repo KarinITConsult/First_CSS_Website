@@ -1,0 +1,180 @@
+/* selector{property: value;}  */
+/*   who   { what   : how   }   */
+
+/* Quick note on colour palete
+#E38B29
+#F1A661
+#FFD8A9
+#FDEEDC
+
+************************/
+
+/************************************ TAG SELECTORS ************************************/
+/* for general elements */
+
+body{
+  margin: 0px;
+  color: #40514E;
+  text-align: center;     /* centers everything  */
+  font-family: 'Merriweather', serif; 
+}
+
+/* Making font size dynamic .... you can use % or EM    16px = 100% = 1em  with % and em they add to what is in a parent */
+/* if you use rem .. it igmores all parents   */
+h1{
+    font-size: 5.625rem;
+/*    line-height: 2;     */ 
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #E38B29;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif; 
+    color: #F1A661;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #F1A661;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+    color: #E38B29;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FDEEDC;
+}
+
+hr{
+    border: dotted #FDEEDC 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+/*********************************************** CLASS SELECTORS ************************************************/
+/*  used for groups of elements */
+/*  can use more than one class on an element */
+/*  start with .   */
+
+.top-container {
+   background-color: #FDEEDC;
+   position: relative;
+   padding-top: 100px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skillone_img{
+    width: 15%;
+    float: left;     /* float wraps the data around image */
+    margin-right: 30px;
+}
+
+.skilltwo_img {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+/*  This is just for knowledge
+
+.skillone-desc{
+    clear:left;    /*  clear stops the paragraph from wrapping (or clearing all alignment 
+}
+
+*/
+
+.middle-container{
+    background-color: #ffffff;
+    margin: 100px 0;
+}
+
+.intro{
+    margin: auto;
+    width: 75%;
+}
+
+.contact_me{
+    margin: 40px auto 50px;
+    width: 50%;
+}
+
+.btn {
+    background: #E38B29;
+    background-image: -webkit-linear-gradient(top, #E38B29, #F1A661);
+    background-image: -moz-linear-gradient(top, #E38B29, #F1A661);
+    background-image: -ms-linear-gradient(top, #E38B29, #F1A661);
+    background-image: -o-linear-gradient(top, #E38B29, #F1A661);
+    background-image: linear-gradient(to bottom, #E38B29, #F1A661);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #E38B29 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #F1A661;
+    background-image: -webkit-linear-gradient(top, #F1A661, #FDEEDC);
+    background-image: -moz-linear-gradient(top, #F1A661, #FDEEDC);
+    background-image: -ms-linear-gradient(top, #F1A661, #FDEEDC);
+    background-image: -o-linear-gradient(top, #F1A661, #FDEEDC);
+    background-image: linear-gradient(to bottom, #F1A661, #FDEEDC);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #F1A661;
+    padding: 50px 0 20px;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+
+/************************************************ ID SELECTORS *************************************************/
+/*  used for only one element (once per page) */
+/*  starts with #  */
+
+
